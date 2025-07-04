@@ -1,0 +1,90 @@
+@use'../variable' as*;
+
+.Hero {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    .Hero_box {
+        h2 {
+            width: 50%;
+            font-size: 37px;
+            margin-right: 20rem;
+            color: $color-accent;
+            margin-bottom: 2rem;
+        }
+
+        p {
+            font-size: 18px;
+            width: 80%;
+            margin-bottom: 1.5rem;
+        }
+
+        button {
+            padding: 20px 27px;
+            background-color: $color-accent;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            transition: all 0.4s ease;
+
+            &:hover {
+                box-shadow: 0px 0px 20px $color-accent;
+                transform: translateY(-4px);
+            }
+
+            &:active {
+                transform: translateY(4px);
+                box-shadow: 0px 0px 7px #fff;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .Hero {
+        display: flex;
+        align-items: center;
+        flex-direction: column-reverse;
+        width: 90%;
+        img{
+            width: 100%;
+        }
+        .Hero_box {
+            h2 {
+                margin-top: 4rem;
+                width: 100%;
+                font-size: 20px;
+                margin-right: 0rem;
+                color: $color-accent;
+                margin-bottom: 2rem;
+            }
+
+            p {
+                font-size: 14px;
+                width: 80%;
+                margin-bottom: 1.5rem;
+            }
+
+            button {
+                padding: 15px 24px;
+                background-color: $color-accent;
+                border: none;
+                color: #fff;
+                border-radius: 10px;
+                transition: all 0.4s ease;
+
+                &:hover {
+                    box-shadow: 0px 0px 20px $color-accent;
+                    transform: translateY(-4px);
+                }
+
+                &:active {
+                    transform: translateY(4px);
+                    box-shadow: 0px 0px 7px #fff;
+                }
+            }
+        }
+    }
+}

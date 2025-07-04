@@ -115,5 +115,79 @@ header .navbar #navbar_menu {
     color: #1e959b;
   }
 }
+.Hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.Hero .Hero_box h2 {
+  width: 50%;
+  font-size: 37px;
+  margin-right: 20rem;
+  color: #1e959b;
+  margin-bottom: 2rem;
+}
+.Hero .Hero_box p {
+  font-size: 18px;
+  width: 80%;
+  margin-bottom: 1.5rem;
+}
+.Hero .Hero_box button {
+  padding: 20px 27px;
+  background-color: #1e959b;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+.Hero .Hero_box button:hover {
+  box-shadow: 0px 0px 20px #1e959b;
+  transform: translateY(-4px);
+}
+.Hero .Hero_box button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 7px #fff;
+}
+
+@media screen and (max-width: 600px) {
+  .Hero {
+    display: flex;
+    align-items: center;
+    flex-direction: column-reverse;
+    width: 90%;
+  }
+  .Hero img {
+    width: 100%;
+  }
+  .Hero .Hero_box h2 {
+    margin-top: 4rem;
+    width: 100%;
+    font-size: 20px;
+    margin-right: 0rem;
+    color: #1e959b;
+    margin-bottom: 2rem;
+  }
+  .Hero .Hero_box p {
+    font-size: 14px;
+    width: 80%;
+    margin-bottom: 1.5rem;
+  }
+  .Hero .Hero_box button {
+    padding: 15px 24px;
+    background-color: #1e959b;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+  }
+  .Hero .Hero_box button:hover {
+    box-shadow: 0px 0px 20px #1e959b;
+    transform: translateY(-4px);
+  }
+  .Hero .Hero_box button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 0px 7px #fff;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
