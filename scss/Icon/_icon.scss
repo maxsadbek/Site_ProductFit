@@ -1,0 +1,36 @@
+@use'../variable' as*;
+.infinite_gallery {
+    overflow: hidden;
+    padding: 30px 0;
+    background-color: $color-accent;
+    margin-top: 5rem;
+    .gallery_track {
+        display: flex;
+        gap: 40px;
+        animation: galleryScroll 20s linear infinite;
+        align-items: center;
+        width: max-content;
+    }
+
+    img {
+        width: 100px;
+        height: auto;
+        opacity: 0.85;
+        transition: transform 0.3s ease;
+
+        &:hover {
+            transform: scale(1.1);
+            opacity: 1;
+        }
+    }
+}
+
+@keyframes galleryScroll {
+    0% {
+        transform: translateX(0);
+    }
+
+    100% {
+        transform: translateX(-50%);
+    }
+}

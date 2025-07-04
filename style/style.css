@@ -6,6 +6,10 @@
   font-family: "Roboto", sans-serif;
 }
 
+body {
+  background-color: #f7ffff;
+}
+
 .container {
   max-width: 1150px;
   width: 100%;
@@ -187,6 +191,38 @@ header .navbar #navbar_menu {
   .Hero .Hero_box button:active {
     transform: translateY(4px);
     box-shadow: 0px 0px 7px #fff;
+  }
+}
+.infinite_gallery {
+  overflow: hidden;
+  padding: 30px 0;
+  background-color: #1e959b;
+  margin-top: 5rem;
+}
+.infinite_gallery .gallery_track {
+  display: flex;
+  gap: 40px;
+  animation: galleryScroll 20s linear infinite;
+  align-items: center;
+  width: max-content;
+}
+.infinite_gallery img {
+  width: 100px;
+  height: auto;
+  opacity: 0.85;
+  transition: transform 0.3s ease;
+}
+.infinite_gallery img:hover {
+  transform: scale(1.1);
+  opacity: 1;
+}
+
+@keyframes galleryScroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
   }
 }
 
