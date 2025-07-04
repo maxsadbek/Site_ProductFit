@@ -1,3 +1,119 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto", sans-serif;
+}
 
+.container {
+  max-width: 1150px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+header .navbar {
+  display: flex;
+  justify-content: space-between;
+  padding: 2rem 0;
+}
+header .navbar .menu_box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+header .navbar .menu_box img {
+  width: 40px;
+}
+header .navbar .menu_box .pocta {
+  width: 40px;
+  height: 35px;
+}
+header .navbar .menu_box .phone {
+  width: 40px;
+  height: 35px;
+}
+header .navbar .menu_box .flex {
+  display: flex;
+  align-items: center;
+}
+header .navbar .menu_box .flex p {
+  font-weight: 700;
+  color: #1e959b;
+  font-size: 17px;
+}
+header .navbar .menu_box button {
+  padding: 17px 27px;
+  background-color: #1e959b;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+}
+header .navbar .menu_box button:hover {
+  box-shadow: 0px 0px 20px #1e959b;
+  transform: translateY(-4px);
+}
+header .navbar .menu_box button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 7px #fff;
+}
+header .navbar #navbar_menu {
+  display: none;
+}
+
+@media screen and (max-width: 600px) {
+  header .navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 0;
+    width: 94%;
+  }
+  header .navbar img {
+    width: 140px;
+  }
+  header .navbar .menu_box {
+    display: flex;
+    align-items: center;
+    gap: 2rem;
+  }
+  header .navbar .menu_box img {
+    display: none;
+    width: 40px;
+  }
+  header .navbar .menu_box .pocta {
+    width: 40px;
+    display: none;
+    height: 35px;
+  }
+  header .navbar .menu_box .phone {
+    width: 40px;
+    display: none;
+    height: 35px;
+  }
+  header .navbar .menu_box .flex {
+    display: flex;
+    display: none;
+    align-items: center;
+  }
+  header .navbar .menu_box .flex p {
+    font-weight: 700;
+    color: #1e959b;
+    font-size: 17px;
+  }
+  header .navbar .menu_box button {
+    padding: 17px 27px;
+    background-color: #1e959b;
+    border: none;
+    color: #fff;
+    display: none;
+    border-radius: 10px;
+  }
+  header .navbar #navbar_menu {
+    display: block;
+    font-size: 27px;
+    color: #1e959b;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
