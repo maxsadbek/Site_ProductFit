@@ -1,0 +1,139 @@
+@use'../variable' as*;
+
+footer {
+    margin-top: 15rem;
+    height: 200px;
+
+    .Footer {
+        display: flex;
+        text-align: center;
+        justify-content: space-between;
+
+        div {
+            display: flex;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .menu_box {
+            display: flex;
+            align-items: center;
+            gap: 2rem;
+
+            img {
+                width: 40px;
+            }
+
+            .pocta {
+                width: 40px;
+                height: 35px;
+            }
+
+            .phone {
+                width: 40px;
+                height: 35px;
+            }
+
+            .flex {
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-weight: 700;
+                    color: $color-accent;
+                    font-size: 17px;
+                }
+            }
+        }
+
+        h3 {
+            text-align: start;
+            width: 36%;
+            font-size: 14px;
+            font-weight: 400;
+            line-height: 1.7;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    footer {
+        margin-top: 5rem;
+        height: 100px;
+        text-align: center;
+    }
+
+    .Footer {
+        display: flex;
+        text-align: center;
+        flex-direction: column;
+        align-items: center;
+        width: 94%;
+
+        h3 {
+            text-align: center;
+            width: 400px;
+            font-size: 19px;
+            display: none;
+            font-weight: 400;
+            line-height: 1.7;
+        }
+
+        img {
+            text-align: center;
+            width: 250px;
+            margin-bottom: 2rem;
+        }
+
+        div {
+            display: flex;
+
+            img {
+                width: 40px;
+            }
+        }
+
+        .menu_box {
+            display: flex;
+            align-items: center;
+            flex-direction:column;
+            gap: 1rem;
+            .number{
+                display: flex;
+                align-items: center;
+                margin-top: -4rem;
+                img{
+                    margin-top: 35px;
+                }
+            }
+            img {
+                width: 40px;
+            }
+
+            .pocta {
+                width: 40px;
+                height: 35px;
+            }
+
+            .phone {
+                width: 40px;
+                height: 35px;
+            }
+
+            .flex {
+                display: flex;
+                align-items: center;
+
+                p {
+                    font-weight: 700;
+                    color: $color-accent;
+                    font-size: 17px;
+                }
+            }
+        }
+
+    }
+}

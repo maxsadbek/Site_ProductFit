@@ -631,5 +631,120 @@ header .navbar #navbar_menu {
     padding-top: 3rem;
   }
 }
+footer {
+  margin-top: 15rem;
+  height: 200px;
+}
+footer .Footer {
+  display: flex;
+  text-align: center;
+  justify-content: space-between;
+}
+footer .Footer div {
+  display: flex;
+}
+footer .Footer div img {
+  width: 40px;
+}
+footer .Footer .menu_box {
+  display: flex;
+  align-items: center;
+  gap: 2rem;
+}
+footer .Footer .menu_box img {
+  width: 40px;
+}
+footer .Footer .menu_box .pocta {
+  width: 40px;
+  height: 35px;
+}
+footer .Footer .menu_box .phone {
+  width: 40px;
+  height: 35px;
+}
+footer .Footer .menu_box .flex {
+  display: flex;
+  align-items: center;
+}
+footer .Footer .menu_box .flex p {
+  font-weight: 700;
+  color: #1e959b;
+  font-size: 17px;
+}
+footer .Footer h3 {
+  text-align: start;
+  width: 36%;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 1.7;
+}
+
+@media screen and (max-width: 600px) {
+  footer {
+    margin-top: 5rem;
+    height: 100px;
+    text-align: center;
+  }
+  .Footer {
+    display: flex;
+    text-align: center;
+    flex-direction: column;
+    align-items: center;
+    width: 94%;
+  }
+  .Footer h3 {
+    text-align: center;
+    width: 400px;
+    font-size: 19px;
+    display: none;
+    font-weight: 400;
+    line-height: 1.7;
+  }
+  .Footer img {
+    text-align: center;
+    width: 250px;
+    margin-bottom: 2rem;
+  }
+  .Footer div {
+    display: flex;
+  }
+  .Footer div img {
+    width: 40px;
+  }
+  .Footer .menu_box {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+  }
+  .Footer .menu_box .number {
+    display: flex;
+    align-items: center;
+    margin-top: -4rem;
+  }
+  .Footer .menu_box .number img {
+    margin-top: 35px;
+  }
+  .Footer .menu_box img {
+    width: 40px;
+  }
+  .Footer .menu_box .pocta {
+    width: 40px;
+    height: 35px;
+  }
+  .Footer .menu_box .phone {
+    width: 40px;
+    height: 35px;
+  }
+  .Footer .menu_box .flex {
+    display: flex;
+    align-items: center;
+  }
+  .Footer .menu_box .flex p {
+    font-weight: 700;
+    color: #1e959b;
+    font-size: 17px;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
