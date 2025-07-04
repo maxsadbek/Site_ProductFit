@@ -1,0 +1,109 @@
+@use'../variable' as*;
+.Proekt {
+    margin-top: 7rem;
+    text-align: center;
+
+    h1 {
+        text-transform: uppercase;
+        font-size: 36px;
+        color: rgba(30, 149, 155, 0.97);
+        margin-bottom: 4rem;
+    }
+
+    .Proekt_box1 {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 3rem;
+
+    }
+
+    .Proekt_box {
+        width: 300px;
+        padding: 1rem;
+        text-align: center;
+        -webkit-box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+        -moz-box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+        box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+        border-radius: 25px;
+
+        h4 {
+            color: rgba(30, 149, 155, 0.97);
+        }
+
+        p {
+            font-size: 16px;
+        }
+
+        .Proekt_box_text {
+            text-align: start;
+            margin-top: 1rem;
+        }
+    }
+
+    button {
+        padding: 20px 30px;
+        background-color: $color-accent;
+        border: none;
+        color: #fff;
+        border-radius: 10px;
+        transition: all 0.4s ease;
+        font-size: 18px;
+
+        &:hover {
+            box-shadow: 0px 0px 20px $color-accent;
+            transform: translateY(-4px);
+        }
+
+        &:active {
+            transform: translateY(4px);
+            box-shadow: 0px 0px 7px #fff;
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+    .Proekt {
+        margin-top: 7rem;
+        text-align: center;
+        width: 94%;
+
+        h1 {
+            text-transform: uppercase;
+            font-size: 28px;
+            color: rgba(30, 149, 155, 0.97);
+            margin-bottom: 4rem;
+        }
+
+        .Proekt_box1 {
+            display: flex;
+            flex-direction: column;
+            margin-bottom: 3rem;
+            align-items: center;
+
+        }
+
+        .Proekt_box {
+            width: 90%;
+            padding: 1rem;
+            text-align: center;
+            -webkit-box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+            -moz-box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+            box-shadow: 1px 12px 3px -5px rgba(30, 149, 155, 0.5);
+            border-radius: 25px;
+            margin-top: 6rem;
+
+            h4 {
+                color: rgba(30, 149, 155, 0.97);
+            }
+
+            p {
+                font-size: 20px;
+            }
+
+            .Proekt_box_text {
+                text-align: start;
+                margin-top: 1rem;
+            }
+        }
+    }
+}
