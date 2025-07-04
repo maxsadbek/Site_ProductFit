@@ -1,0 +1,55 @@
+// COLORS
+$color-primary: #2557F5;
+$color-secondary: #3E8DFF;
+$color-accent: #00E0FF;
+$color-black: #000000;
+$color-dark: #1A1A1A;
+$color-light: #F5F7FA;
+$color-white: #FFFFFF;
+$color-gray-100: #E4E8F0;
+$color-gray-200: #C6CBD9;
+$color-gray-300: #9499A3;
+$color-gray-400: #5B6171;
+
+// GRADIENTS
+$gradient-blue: linear-gradient(90deg, #2557F5 0%, #3E8DFF 100%);
+$gradient-accent: linear-gradient(90deg, #00E0FF 0%, #3E8DFF 100%);
+
+// FONT FAMILIES
+$font-primary: 'Inter', sans-serif;
+
+// FONT SIZES
+$font-size-xs: 0.75rem; // 12px
+$font-size-sm: 0.875rem; // 14px
+$font-size-base: 1rem; // 16px
+$font-size-md: 1.125rem; // 18px
+$font-size-lg: 1.25rem; // 20px
+$font-size-xl: 1.5rem; // 24px
+$font-size-2xl: 2rem; // 32px
+$font-size-3xl: 2.5rem; // 40px
+$font-size-4xl: 3rem; // 48px
+$font-size-5xl: 4rem; // 64px
+
+// SPACING
+$spacing-1: 0.25rem; // 4px
+$spacing-2: 0.5rem; // 8px
+$spacing-3: 0.75rem; // 12px
+$spacing-4: 1rem; // 16px
+$spacing-5: 1.5rem; // 24px
+$spacing-6: 2rem; // 32px
+$spacing-8: 3rem; // 48px
+$spacing-10: 4rem; // 64px
+
+// BORDERS
+$border-radius-sm: 4px;
+$border-radius-md: 8px;
+$border-radius-lg: 16px;
+$border-radius-xl: 32px;
+
+// SHADOWS
+$shadow-sm: 0px 2px 4px rgba(0, 0, 0, 0.05);
+$shadow-md: 0px 4px 8px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0px 6px 20px rgba(0, 0, 0, 0.1);
+
+// TRANSITIONS
+$transition-default: all 0.3s ease-in-out;

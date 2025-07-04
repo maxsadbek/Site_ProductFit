@@ -1,0 +1,25 @@
+{
+  "name": "site_productfit",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass scss/style.scss:style/style.css",
+    "sass:watch": "sass --watch scss/style.scss:style/style.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maxsadbek/Site_ProductFit.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maxsadbek/Site_ProductFit/issues"
+  },
+  "homepage": "https://github.com/maxsadbek/Site_ProductFit#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
