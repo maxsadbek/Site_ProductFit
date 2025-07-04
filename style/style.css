@@ -225,5 +225,91 @@ header .navbar #navbar_menu {
     transform: translateX(-50%);
   }
 }
+.card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-top: 5rem;
+}
+.card .card1 {
+  background-color: #fff;
+  width: 180px;
+  height: 140px;
+  padding: 0.6rem;
+  text-align: center;
+  -webkit-box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+  -moz-box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+  box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+  border-radius: 20px;
+  line-height: 1.6;
+  font-size: 15px;
+}
+.card .card_box {
+  background-color: #fff;
+  width: 180px;
+  height: 140px;
+  padding: 1rem;
+  text-align: center;
+  line-height: 2;
+  -webkit-box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+  -moz-box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+  box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+  border-radius: 20px;
+  font-size: 14px;
+  transition: all 0.4s ease;
+}
+.card .card_box:hover {
+  box-shadow: 0px 0px 30px #1e959b;
+}
+.card .card2 {
+  display: flex;
+  gap: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .card {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin-top: 5rem;
+    width: 94%;
+  }
+  .card .card1 {
+    background-color: #fff;
+    width: 40%;
+    height: 140px;
+    padding: 1rem;
+    text-align: center;
+    -webkit-box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+    -moz-box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+    box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
+    border-radius: 20px;
+    line-height: 1.6;
+    font-size: 12px;
+  }
+  .card .card_box {
+    background-color: #fff;
+    width: 180px;
+    height: 140px;
+    padding: 1rem;
+    text-align: center;
+    line-height: 2;
+    -webkit-box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+    -moz-box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+    box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
+    border-radius: 20px;
+    font-size: 12px;
+    transition: all 0.4s ease;
+  }
+  .card .card_box:hover {
+    box-shadow: 0px 0px 30px #1e959b;
+  }
+  .card .card2 {
+    display: flex;
+    gap: 3rem;
+    margin-top: 3rem;
+    margin-bottom: 3rem;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
