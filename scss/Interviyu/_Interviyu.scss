@@ -1,0 +1,99 @@
+@use'../variable' as*;
+
+.Interviyu {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 5rem;
+    gap: 4rem;
+
+    .Interviyu_box {
+        h2 {
+            font-size: 38px;
+            width: 90%;
+            margin-bottom: 2rem;
+            color: rgba(30, 149, 155, 0.97);
+        }
+
+        p {
+            font-size: 20px;
+            margin-bottom: 2rem;
+
+            span {
+                font-weight: 900;
+            }
+        }
+
+        button {
+            padding: 16px 24px;
+            background-color: $color-accent;
+            border: none;
+            color: #fff;
+            border-radius: 10px;
+            transition: all 0.4s ease;
+            font-size: 17px;
+
+            &:hover {
+                box-shadow: 0px 0px 20px $color-accent;
+                transform: translateY(-4px);
+            }
+
+            &:active {
+                transform: translateY(4px);
+                box-shadow: 0px 0px 7px #fff;
+            }
+        }
+    }
+}
+
+@media screen and (max-width:600px) {
+
+    .Interviyu {
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        margin-top: 7rem;
+        gap: 4rem;
+        width: 94%;
+        img{
+            width: 100%;
+        }
+        .Interviyu_box {
+            h2 {
+                font-size: 20px;
+                width: 90%;
+                margin-bottom: 2rem;
+                color: rgba(30, 149, 155, 0.97);
+            }
+
+            p {
+                font-size: 16px;
+                margin-bottom: 2rem;
+
+                span {
+                    font-weight: 900;
+                }
+            }
+
+            button {
+                padding: 14px 24px;
+                background-color: $color-accent;
+                border: none;
+                color: #fff;
+                border-radius: 10px;
+                transition: all 0.4s ease;
+                font-size: 15px;
+
+                &:hover {
+                    box-shadow: 0px 0px 20px $color-accent;
+                    transform: translateY(-4px);
+                }
+
+                &:active {
+                    transform: translateY(4px);
+                    box-shadow: 0px 0px 7px #fff;
+                }
+            }
+        }
+    }
+}
