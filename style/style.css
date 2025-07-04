@@ -276,7 +276,7 @@ header .navbar #navbar_menu {
   }
   .card .card1 {
     background-color: #fff;
-    width: 40%;
+    width: 50%;
     height: 140px;
     padding: 1rem;
     text-align: center;
@@ -285,7 +285,7 @@ header .navbar #navbar_menu {
     box-shadow: 0px 4px 6px -1px rgb(30, 149, 155) inset;
     border-radius: 20px;
     line-height: 1.6;
-    font-size: 12px;
+    font-size: 9px;
   }
   .card .card_box {
     background-color: #fff;
@@ -298,7 +298,7 @@ header .navbar #navbar_menu {
     -moz-box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
     box-shadow: 0px 6px 7px -1px rgba(30, 149, 155, 0.97);
     border-radius: 20px;
-    font-size: 12px;
+    font-size: 10px;
     transition: all 0.4s ease;
   }
   .card .card_box:hover {
@@ -620,7 +620,7 @@ header .navbar #navbar_menu {
   .Platform .Platform_box .Platform_div_img {
     text-align: center;
     align-items: center;
-    margin-left: 6rem;
+    margin-left: 5rem;
     background: linear-gradient(90deg, #90d7da, #1e959b);
     width: 50%;
     padding: 2rem;
