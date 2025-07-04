@@ -309,6 +309,7 @@ header .navbar #navbar_menu {
     gap: 3rem;
     margin-top: 3rem;
     margin-bottom: 3rem;
+    width: 99%;
   }
 }
 .Interviyu {
@@ -481,6 +482,153 @@ header .navbar #navbar_menu {
   .Proekt .Proekt_box .Proekt_box_text {
     text-align: start;
     margin-top: 1rem;
+  }
+}
+.Platform {
+  background-color: #1e959b;
+  width: 100%;
+  height: 100px;
+  margin-top: 17rem;
+  position: relative;
+  display: flex;
+  justify-content: space-between;
+}
+.Platform .Platform_box {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 8rem;
+}
+.Platform .Platform_box .Platform_div {
+  margin-top: -1rem;
+  background-color: #fff;
+  width: 300px;
+  height: 370px;
+  -webkit-box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+  -moz-box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+  box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+  position: absolute;
+  border-radius: 20px;
+  text-align: center;
+}
+.Platform .Platform_box .Platform_div h3 {
+  color: #1e959b;
+  font-size: 30px;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+.Platform .Platform_box .Platform_div h2 {
+  font-weight: 400;
+}
+.Platform .Platform_box .Platform_div h2 span {
+  font-size: 14px;
+  margin-right: 6px;
+}
+.Platform .Platform_box .Platform_div button {
+  padding: 16px 30px;
+  background-color: #1e959b;
+  border: none;
+  color: #fff;
+  border-radius: 10px;
+  transition: all 0.4s ease;
+  font-size: 18px;
+  margin-top: 2rem;
+}
+.Platform .Platform_box .Platform_div button:hover {
+  box-shadow: 0px 0px 20px #1e959b;
+  transform: translateY(-4px);
+}
+.Platform .Platform_box .Platform_div button:active {
+  transform: translateY(4px);
+  box-shadow: 0px 0px 7px #fff;
+}
+.Platform .Platform_box .Platform_div_img {
+  text-align: center;
+  align-items: center;
+  margin-left: 3rem;
+  background: linear-gradient(90deg, #90d7da, #1e959b);
+  width: 50%;
+  padding: 2rem;
+  margin-top: -5rem;
+  border-radius: 50%;
+  width: 200px;
+  height: 200px;
+  padding-top: 3rem;
+}
+
+@media screen and (max-width: 600px) {
+  .Platform {
+    background-color: #1e959b;
+    width: 100%;
+    height: 1300px;
+    margin-top: 12rem;
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+  }
+  .Platform .Platform_box {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 8rem;
+  }
+  .Platform .Platform_box .Platform_div {
+    margin-top: -6rem;
+    background-color: #fff;
+    width: 400px;
+    height: 360px;
+    -webkit-box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+    -moz-box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+    box-shadow: 0px 1px 6px 1px rgb(30, 149, 155);
+    position: absolute;
+    border-radius: 20px;
+    text-align: center;
+  }
+  .Platform .Platform_box .Platform_div h3 {
+    color: #1e959b;
+    font-size: 33px;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+  }
+  .Platform .Platform_box .Platform_div h2 {
+    font-weight: 400;
+  }
+  .Platform .Platform_box .Platform_div h2 span {
+    font-size: 16px;
+    margin-right: 6px;
+  }
+  .Platform .Platform_box .Platform_div button {
+    padding: 16px 30px;
+    background-color: #1e959b;
+    border: none;
+    color: #fff;
+    border-radius: 10px;
+    transition: all 0.4s ease;
+    font-size: 18px;
+    margin-top: 2rem;
+  }
+  .Platform .Platform_box .Platform_div button:hover {
+    box-shadow: 0px 0px 20px #1e959b;
+    transform: translateY(-4px);
+  }
+  .Platform .Platform_box .Platform_div button:active {
+    transform: translateY(4px);
+    box-shadow: 0px 0px 7px #fff;
+  }
+  .Platform .Platform_box .Platform_div_img {
+    text-align: center;
+    align-items: center;
+    margin-left: 6rem;
+    background: linear-gradient(90deg, #90d7da, #1e959b);
+    width: 50%;
+    padding: 2rem;
+    margin-top: -5rem;
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    padding-top: 3rem;
   }
 }
 
